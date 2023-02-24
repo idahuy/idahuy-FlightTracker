@@ -57,7 +57,7 @@ public class FlightService {
         // set the flight_id of the original transient Flight object to the flight_id of the newly persisted Flight object
         flight.setFlight_id(persistedFlight.getFlight_id());
         return persistedFlight;
-    }
+    } 
 
     /**
      * TODO: Use the FlightDAO to update an existing flight from the database.
